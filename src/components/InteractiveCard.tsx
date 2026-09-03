@@ -2,7 +2,7 @@
 
 import React from "react";
 
-export default function InteractiveCard ({children} : {children : React.ReactNode, contentName : string}) {
+export default function InteractiveCard ({children} : {children : React.ReactNode}) {
 
 
   function onCardMouseAction (event: React.SyntheticEvent) {
